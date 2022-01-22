@@ -1,0 +1,117 @@
+/* Write your CSS code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-card {
+    max-width: 600px;
+  }
+}
+.feedback-questions-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.feedback-question-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.feedback-heading {
+  padding: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-heading {
+    font-size: 33px;
+  }
+}
+
+.button-emoji {
+  border: none;
+  background-color: transparent;
+}
+
+.emoji {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 40px;
+  width: 40px;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.emoji-name {
+  margin-top: 0px;
+  color: #1e293b;
+}
+
+.thank-you-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  min-width: 100px;
+  padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .thank-you-card {
+    max-width: 600px;
+  }
+}
+
+.love-emoji {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  height: 55px;
+  width: 50px;
+}
+
+.thank-you {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #0f172a;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .thank-you {
+    font-size: 33px;
+  }
+}
+
+.thank-you-description {
+  margin-top: 0px;
+  color: #1e293b;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
